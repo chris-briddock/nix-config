@@ -40,9 +40,4 @@ in {
   # Enable sound (PulseAudio)
   sound.enable = true;
   hardware.pulseaudio.enable = true;
-
-  # Enable X11 and KDE Plasma desktop
-  services.xserver.enable = true;
-  services.xserver.displayManager.sddm.enable = true;
-  services.xserver.desktopManager.plasma5.enable = true;
 }
